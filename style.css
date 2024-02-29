@@ -152,7 +152,7 @@ section.topo-do-site{
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 100px;
 }
 
 .topo-do-site h1{
@@ -168,10 +168,12 @@ section.topo-do-site .flex{
 
 .topo-do-site .txt-topo-site p{
     color: white;
-    margin: 40px 0px;
+    margin: 30px 0px;
+    text-align: justify;
 }
 
 .topo-do-site .img-topo-site img{
+    margin-left: 100px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -499,6 +501,8 @@ footer .line-footer p a{
 
     .topo-do-site .img-topo-site img{
         height: 450px;
+        align-items: center;
+        margin-left: 0;
     }
 
     /* especialidades */
